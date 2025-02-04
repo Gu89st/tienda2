@@ -1,0 +1,114 @@
+.navbar-custom {
+    border: 2px solid #000000 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+body{
+    background-color:#E6D5BC;
+}
+.navbar-brand {
+    flex-grow: 1;
+}
+
+.navbar-nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 991.98px) { 
+    .navbar-brand {
+        order: 1; 
+        position: static;
+        transform: none;
+
+    }
+}
+
+.card{
+    height: auto;
+    width: auto;
+    max-width: 70%;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 60px;
+}
+.card-body{
+    text-align: center;
+}
+.cold{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10000px;
+}
+.social-icon{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    padding: px;
+}
+.custom-image {
+    border-radius: 100px;
+}
+.icon a{
+    text-decoration: none;
+}
+
+.section2{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+ }
+ .conteinersec2 {
+     max-width: 95%; 
+     padding: 10px; 
+     display: flex;
+     flex-wrap: wrap; 
+     justify-content: space-around; 
+ }
+ .subtytle{
+     margin: 0 20px;
+     text-decoration: none;
+     color: #000000;
+ }
+ .conteinersec2 a:hover {
+     border-radius: 50px;
+     background-color: #e6b950; 
+     transition: 0.2s ease-in-out;
+ }
+ .colors {
+    display: flex; 
+    text-align: left;
+    margin-top: 15px;
+}
+.card-color{
+    margin: 5px;
+}
+.descripcio{
+    margin-top: 15px;
+}
+.descripcion2{
+    margin-top: 15px;
+}
+.Tallas{
+    display: flex;
+    text-align: left;
+    margin-top: 15px;
+}
+.card-talla{
+    max-width: 20%;
+}
+.precio{
+    text-align: left;
+}
+.boton-col{
+    color: #000000;
+    background-color: rgb(18, 214, 8);
+    border-radius: 50px; 
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
